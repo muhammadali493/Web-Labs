@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Ali</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #35808d;
+      color: #000000;
+      text-align: center;
+      padding: 20px;#000000
+    }
+
+    nav {
+      background-color: #666;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 16px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #35808d;
+      color: #000000;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muhammad Ali</h1>
+    <p><a href="mali.bscsses21@iba-suk.edu.pk">mali.bscsses21@iba-suk.edu.pk</a></p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a> 
+    <a href="#classes">Classes</a> 
+    <a href="#interests">Interests</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a final year undergrad of Computer Science student at Sukkur IBA University. I'm a highly motivated developer who's always learning and experimenting with new technologies.
+      I am interested in contributing to Artificial Intelligence and LLMs.
+      </p>
+  </section>
+
+  <section id="classes">
+    <h2>Classes</h2>
+    <!-- Subordinate Pages -->
+    <ul>
+        <li><a href="#task3">Task 3 Markup</a></li>
+        <li><a href="#task4">Task 4 Spreadsheets</a></li>
+        <li><a href="#task5">Task 5 Relational Databases</a></li>
+        <li><a href="#task6">Task 6 Presentational Graphics</a></li>
+    </ul>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <!-- Content about your interests -->
+    <p>I am interested in artificial intelligence and machine learning, specializing in the practical implementation of models to deliver optimal solutions for real-world challenges.</p>
+  </section>
+
+  <footer>
+    Last updated on <time id="current-time"></time>
+  </footer>
+
+  <script>
+    function updateTime() {
+      const currentTimeElement = document.getElementById('current-time');
+      const now = new Date();
+      const options = {year: 'numeric', month: 'long', day: 'numeric'};
+      const formattedTime = now.toLocaleDateString('en-US', options);
+      currentTimeElement.textContent = formattedTime;
+    }
+
+    updateTime();
+    setInterval(updateTime, 1000);
+  </script>
+
+</body>
+</html>
