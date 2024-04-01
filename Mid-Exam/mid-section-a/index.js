@@ -77,3 +77,9 @@ products.forEach((product) => {
 
   container.appendChild(productDiv);
 });
+
+const addToCart = document.getElementById("add-to-cart");
+addToCart.addEventListener("click", function() {
+  
+});
+
