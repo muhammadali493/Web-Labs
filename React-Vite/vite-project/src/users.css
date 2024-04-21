@@ -1,0 +1,31 @@
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* User card styles */
+  .user-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .user-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-card p {
+    margin-bottom: 5px;
+  }
+  
+  .user-card .username {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .user-card .email {
+    color: #666;
+  }
+  

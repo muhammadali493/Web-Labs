@@ -79,7 +79,8 @@ products.forEach((product) => {
 });
 
 const addToCart = document.getElementById("add-to-cart");
-addToCart.addEventListener("click", function() {
-  
-});
-
+ addToCart.addEventListener("click", function() {
+    const cart = document.getElementById("cart");
+    const productInfo = addToCart.parentNode;
+    cart.appendChild(productInfo.infoDiv);   
+ });
