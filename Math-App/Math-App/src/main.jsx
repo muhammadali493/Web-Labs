@@ -2,12 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import CustomApp from './CustomApp.jsx'
-import Users from './Users.jsx'
-// import Users from './Users.jsx'
-// import { Circle } from './circle.jsx'
+import Shape from './Shape.jsx'
+import Shapes from './Shapes.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  
-  <Users />
+  <React.StrictMode>
+    <Shapes />
+  </React.StrictMode>,
 )

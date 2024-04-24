@@ -188,8 +188,8 @@ export default function Users() {
         bs: "target end-to-end models",
       },
     },
-  ];
-
+    ];
+  if(users.length > 0)
   return (
     <>
       {/* background-color:"red" */}
@@ -203,7 +203,9 @@ export default function Users() {
       >
         these are {users.length} users{" "}
       </h1>
-
+      
+      {/*Conditional Rendering */}
+      {/*Conditional Rendering */}
       <h2>{users.length % 2 === 0 ? "Users are even" : "Users are odd"}</h2>
 
       <div id="container">
